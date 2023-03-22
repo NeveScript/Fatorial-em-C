@@ -77,6 +77,6 @@ int main()
       pop(&pilha);
     }
 
-    //--+ Imprime o faotrial +--//
+    //--+ Imprime o fatorial +--//
     printf("Fatorial do número: %d", fatorial);
 }
