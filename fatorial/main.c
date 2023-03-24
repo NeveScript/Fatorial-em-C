@@ -65,7 +65,7 @@ int main()
     printf("Insira o número que deseja ver o fatorial: ");
     scanf("%d", &num);
         
-    //--+ Adiciona o número na lista e o decrementa até que ele seja zero +--//
+    //--+ Adiciona o número na pilha (empilha) e o decrementa até que ele seja zero +--//
     while(num != 0){
         push(&pilha, num);
         num--;
